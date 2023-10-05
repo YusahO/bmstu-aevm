@@ -131,6 +131,22 @@
 	{Я}{{\selectfont\char223}}1
 }
 
+\lstdefinelanguage{RISC-V}{
+  % List of keywords
+  morekeywords={addi, add, sub, mul, div, lw, sw, beq, bne, auipc, jal, bltu},
+  sensitive=true, % Case-sensitive keywords
+  % Comments
+  morecomment=[l]{\#},
+  morecomment=[s]{/*}{*/},
+  % String literals
+  morestring=[b]",
+  morestring=[b]',
+  % Special formatting
+  keywordstyle=\color{blue}\bfseries,
+  commentstyle=\color{green!60!black}\itshape,
+  stringstyle=\color{red},
+}
+
 \usepackage{pgfplots}
 \usetikzlibrary{datavisualization}
 \usetikzlibrary{datavisualization.formats.functions}
