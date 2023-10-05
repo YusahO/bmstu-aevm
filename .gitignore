@@ -1,0 +1,9 @@
+.vscode
+*.aux
+*.fdb_latexmk
+*.out
+**svg-inkscape**
+*.synctex.gz
+*.toc
+*.log
+*.fls
