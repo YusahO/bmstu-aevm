@@ -1,0 +1,3 @@
+[submodule "lab01/riscv-lab"]
+	path = lab01/riscv-lab
+	url = https://gitlab.com/sibragimov/riscv-lab.git
